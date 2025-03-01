@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(236, 226, 226);
+    overflow: hidden;
+}
+
+.follower {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Ensures the cursor can still interact with other elements */
+    transition: transform 0.05s linear; /* Smooth effect */
+}
